@@ -1,8 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right,#9a1d86, #1595be);
     font-weight: bold;
     }
+   .header{                            
+    width: 10%;
+    height: 100vh;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content:left;
+    position: relative;
+    top: 10%;   
+    left: 10%;
+}
+.logo{
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    bottom: 250px;
+    
+}
     
     .player{
       height: 95vh;
@@ -10,6 +42,9 @@ body {
       align-items: center;
       flex-direction: column;
       justify-content: center;
+      position: relative;
+      top:0px;
+      left: 100px;
   }
     .wrapper{
       border: 1px solid transparent;
