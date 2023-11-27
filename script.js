@@ -22,10 +22,10 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'images/slow.jpg',
+        img : 'images/Slow.jpg',
         name : 'Slow',
         artist : 'Amaria BB',
-        music : 'song/Slow.mp3'
+        music : 'song/slow.mp3'
     },
     {
         img : 'images/callout.jpg',
